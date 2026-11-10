@@ -1,0 +1,8 @@
+opencv-python-headless>=4.10
+numpy>=1.26
+scikit-learn>=1.4
+matplotlib>=3.8
+pandas>=2.1
+anthropic>=2.8
+python-dotenv>=1.0
+google-genai>=2.33

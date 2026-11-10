@@ -1,0 +1,1095 @@
+{
+ "threshold": 0.6483095799346689,
+ "test": {
+  "X00016469619.png": {
+   "score": 0.20002894476659688,
+   "pred": 0,
+   "forged": false
+  },
+  "X00016469620.png": {
+   "score": 0.1700631529565232,
+   "pred": 0,
+   "forged": false
+  },
+  "X00016469669.png": {
+   "score": 0.200361773193506,
+   "pred": 0,
+   "forged": false
+  },
+  "X00016469676.png": {
+   "score": 0.19702615937106,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005230616.png": {
+   "score": 0.14397593676315892,
+   "pred": 0,
+   "forged": true
+  },
+  "X51005230657.png": {
+   "score": 0.18183207641943572,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005268275.png": {
+   "score": 0.23557793748271733,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005268408.png": {
+   "score": 0.18658673675682946,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005288570.png": {
+   "score": 0.19209450972347736,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005337872.png": {
+   "score": 0.16779954512042994,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005337877.png": {
+   "score": 0.19027069904358146,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005361883.png": {
+   "score": 0.15695584416129035,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005361898.png": {
+   "score": 0.1354800232554557,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005433514.png": {
+   "score": 0.3928660946265622,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005433533.png": {
+   "score": 0.29240827723793983,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005433543.png": {
+   "score": 0.4572085965461622,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005433552.png": {
+   "score": 0.4787198773164475,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005433556.png": {
+   "score": 0.36295869644488377,
+   "pred": 0,
+   "forged": true
+  },
+  "X51005442361.png": {
+   "score": 0.2299224748024027,
+   "pred": 0,
+   "forged": true
+  },
+  "X51005442366.png": {
+   "score": 0.4234415436212159,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005442382.png": {
+   "score": 0.3838725867626464,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005442397.png": {
+   "score": 0.2590253231598937,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005447839.png": {
+   "score": 0.17345155489388828,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005447842.png": {
+   "score": 0.15820713360201663,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005447848.png": {
+   "score": 0.18425680772971426,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005447851.png": {
+   "score": 0.9841901261046878,
+   "pred": 1,
+   "forged": true
+  },
+  "X51005447853.png": {
+   "score": 0.9970527879277135,
+   "pred": 1,
+   "forged": true
+  },
+  "X51005447860.png": {
+   "score": 0.18912781503204393,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005453729.png": {
+   "score": 0.13464806758740583,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005568829.png": {
+   "score": 0.1618979847544874,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005568866.png": {
+   "score": 0.9999602606122798,
+   "pred": 1,
+   "forged": true
+  },
+  "X51005568884.png": {
+   "score": 0.13293365922840616,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005568911.png": {
+   "score": 0.1481982052369406,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005568914.png": {
+   "score": 0.19289693667805727,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005577191.png": {
+   "score": 0.190537752436696,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005577192.png": {
+   "score": 0.1929086002002173,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005587267.png": {
+   "score": 0.20318230473814589,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005605286.png": {
+   "score": 0.11564695407661134,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005605295.png": {
+   "score": 0.9180013624310678,
+   "pred": 1,
+   "forged": true
+  },
+  "X51005621482.png": {
+   "score": 0.19949891893390517,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005663277.png": {
+   "score": 0.18605049552737288,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005675095.png": {
+   "score": 0.08946696776555912,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005675099.png": {
+   "score": 0.18483271551938632,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005676534.png": {
+   "score": 0.25666192674707655,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005676537.png": {
+   "score": 0.18426774665877965,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005676541.png": {
+   "score": 0.9816220023599984,
+   "pred": 1,
+   "forged": true
+  },
+  "X51005676544.png": {
+   "score": 0.1827612887288957,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005676545.png": {
+   "score": 0.15457244627168304,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005676546.png": {
+   "score": 0.9620444540489049,
+   "pred": 1,
+   "forged": true
+  },
+  "X51005677331.png": {
+   "score": 0.18473680425775538,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005677337.png": {
+   "score": 0.18138139632881287,
+   "pred": 0,
+   "forged": false
+  },
+  "X510056849111.png": {
+   "score": 0.17075977534930173,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005685355.png": {
+   "score": 0.15822481649012513,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005705727.png": {
+   "score": 0.17375319539635647,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005705729.png": {
+   "score": 0.19319760868920366,
+   "pred": 0,
+   "forged": true
+  },
+  "X51005711402.png": {
+   "score": 0.9999151443429689,
+   "pred": 1,
+   "forged": true
+  },
+  "X51005711453.png": {
+   "score": 0.15048779233795903,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005712017.png": {
+   "score": 0.16204908328530845,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005719864.png": {
+   "score": 0.19359644195543213,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005719905.png": {
+   "score": 0.21297628156936083,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005719912.png": {
+   "score": 0.19408266923228135,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005724554.png": {
+   "score": 0.15004327735336948,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005724627.png": {
+   "score": 0.19253550005783568,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005745190.png": {
+   "score": 0.17248631680327112,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005745213.png": {
+   "score": 0.1853721536980127,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005745298.png": {
+   "score": 0.19227535724772396,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005746206.png": {
+   "score": 0.19137429636486508,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005749895.png": {
+   "score": 0.17238639133723696,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005757220.png": {
+   "score": 0.2008811558241396,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005757233.png": {
+   "score": 0.1810919445235266,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005757243.png": {
+   "score": 0.9998318123973329,
+   "pred": 1,
+   "forged": true
+  },
+  "X51005757248.png": {
+   "score": 0.1918223192207815,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005757324.png": {
+   "score": 0.1864392174889697,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005757349.png": {
+   "score": 0.9998122469315184,
+   "pred": 1,
+   "forged": true
+  },
+  "X51005764161.png": {
+   "score": 0.18953866920894613,
+   "pred": 0,
+   "forged": false
+  },
+  "X51005806685.png": {
+   "score": 0.12156718623986389,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006008073.png": {
+   "score": 0.19208790178770987,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006008082.png": {
+   "score": 0.2170217713561205,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006008089.png": {
+   "score": 0.17796017642712772,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006008105.png": {
+   "score": 0.1689638433567861,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006008206.png": {
+   "score": 0.982545158415815,
+   "pred": 1,
+   "forged": true
+  },
+  "X51006327960.png": {
+   "score": 0.17599752708491315,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006328919.png": {
+   "score": 0.19829902540145386,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006329183.png": {
+   "score": 0.9752829869164433,
+   "pred": 1,
+   "forged": true
+  },
+  "X51006329388.png": {
+   "score": 0.18791282243913832,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006334741.png": {
+   "score": 0.17265987406621297,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006335552.png": {
+   "score": 0.17752317085532027,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006335818.png": {
+   "score": 0.18020813258059945,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006349086.png": {
+   "score": 0.24480555984741637,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006350737.png": {
+   "score": 0.18854640394331923,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006387737.png": {
+   "score": 0.19493197128450956,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006387932.png": {
+   "score": 0.18261643148863216,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006388044.png": {
+   "score": 0.9951359704622207,
+   "pred": 1,
+   "forged": true
+  },
+  "X51006388065.png": {
+   "score": 0.1868837033589585,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006388069.png": {
+   "score": 0.20291033004800726,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006389963.png": {
+   "score": 0.5327323478815337,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006392122.png": {
+   "score": 0.1948232375053108,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006401723.png": {
+   "score": 0.18528272730366405,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006401977.png": {
+   "score": 0.9854265781792162,
+   "pred": 1,
+   "forged": true
+  },
+  "X51006414512.png": {
+   "score": 0.6083099198650387,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006414519.png": {
+   "score": 0.2396888073601163,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006414532.png": {
+   "score": 0.22765453414112108,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006414533.png": {
+   "score": 0.49117917077817586,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006414599.png": {
+   "score": 0.4769531075179022,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006414638.png": {
+   "score": 0.5518998713248277,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006414671.png": {
+   "score": 0.44631319352630516,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006414680.png": {
+   "score": 0.21646531694480714,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006414712.png": {
+   "score": 0.29016653895737343,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006414715.png": {
+   "score": 0.43217689192516384,
+   "pred": 0,
+   "forged": true
+  },
+  "X51006414720.png": {
+   "score": 0.4213404074482098,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006438346.png": {
+   "score": 0.2897889103272604,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006466062.png": {
+   "score": 0.15955803634842142,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006502531.png": {
+   "score": 0.1328027912583115,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006502540.png": {
+   "score": 0.18400690857110394,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006555570.png": {
+   "score": 0.15145583051971132,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006555784.png": {
+   "score": 0.18904089625186268,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006555818.png": {
+   "score": 0.17313201436290582,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006556591.png": {
+   "score": 0.19268005833825672,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006556603.png": {
+   "score": 0.9965416798466473,
+   "pred": 1,
+   "forged": true
+  },
+  "X51006556604.png": {
+   "score": 0.1732016008188419,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006556610.png": {
+   "score": 0.17819386593662204,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006556648.png": {
+   "score": 0.17984201771194575,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006556650.png": {
+   "score": 0.15781832936714668,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006556726.png": {
+   "score": 0.978216914068837,
+   "pred": 1,
+   "forged": true
+  },
+  "X51006556806.png": {
+   "score": 0.18509220286038772,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006556808.png": {
+   "score": 0.190867716842303,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006556810.png": {
+   "score": 0.19579177616155563,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006556812.png": {
+   "score": 0.18495601035667555,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006556827.png": {
+   "score": 0.19580100911267925,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006556828.png": {
+   "score": 0.16596582309383331,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006556829.png": {
+   "score": 0.18589512919979648,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006556830.png": {
+   "score": 0.13025108806146424,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006556838.png": {
+   "score": 0.18867375231796457,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006556840.png": {
+   "score": 0.19820075969950304,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006556841.png": {
+   "score": 0.17572742014149656,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006556865.png": {
+   "score": 0.9966993233601568,
+   "pred": 1,
+   "forged": true
+  },
+  "X51006557117.png": {
+   "score": 0.18572046760082753,
+   "pred": 0,
+   "forged": true
+  },
+  "X51006557184.png": {
+   "score": 0.17466295445520946,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006557188.png": {
+   "score": 0.16490735207733612,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006557195.png": {
+   "score": 0.9721211200955092,
+   "pred": 1,
+   "forged": true
+  },
+  "X51006557507.png": {
+   "score": 0.19278691422129599,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006557508.png": {
+   "score": 0.19246616151424292,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006619342.png": {
+   "score": 0.20073631845880724,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006619345.png": {
+   "score": 0.19264752008205693,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006619507.png": {
+   "score": 0.20478566585357177,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006619561.png": {
+   "score": 0.18825873547700622,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006619764.png": {
+   "score": 0.19831752435393962,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006619780.png": {
+   "score": 0.1853583486100901,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006619784.png": {
+   "score": 0.19203967814729458,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006619863.png": {
+   "score": 0.1613887782516163,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006619869.png": {
+   "score": 0.19860636580950763,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006620182.png": {
+   "score": 0.9993837231268037,
+   "pred": 1,
+   "forged": true
+  },
+  "X51006620189.png": {
+   "score": 0.20171671275264988,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006620190.png": {
+   "score": 0.19423037210669056,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006620191.png": {
+   "score": 0.18741899758197167,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006647933.png": {
+   "score": 0.15680911883524032,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006713996.png": {
+   "score": 0.19390814896806507,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006714065.png": {
+   "score": 0.17295505664968905,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006828200.png": {
+   "score": 0.8677348181207497,
+   "pred": 1,
+   "forged": false
+  },
+  "X51006857126.png": {
+   "score": 0.17902658634314658,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006913019.png": {
+   "score": 0.9855400036080164,
+   "pred": 1,
+   "forged": false
+  },
+  "X51006913023.png": {
+   "score": 0.4562501120833722,
+   "pred": 0,
+   "forged": true
+  },
+  "X51006913031.png": {
+   "score": 0.3339628603710552,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006913061.png": {
+   "score": 0.5563962257056656,
+   "pred": 0,
+   "forged": false
+  },
+  "X51006913074.png": {
+   "score": 0.5464168928846692,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007103597.png": {
+   "score": 0.18548431528447631,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007103639.png": {
+   "score": 0.17773872963941792,
+   "pred": 0,
+   "forged": true
+  },
+  "X51007103688.png": {
+   "score": 0.9994530496791084,
+   "pred": 1,
+   "forged": true
+  },
+  "X51007103702.png": {
+   "score": 0.19645108960431004,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007231361.png": {
+   "score": 0.9162443441855707,
+   "pred": 1,
+   "forged": true
+  },
+  "X51007231364.png": {
+   "score": 0.4062848524345594,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007231370.png": {
+   "score": 0.4155292834431141,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007339098.png": {
+   "score": 0.1735521941801059,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007339107.png": {
+   "score": 0.9576760916140209,
+   "pred": 1,
+   "forged": true
+  },
+  "X51007339116.png": {
+   "score": 0.18589907074425135,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007339118.png": {
+   "score": 0.19798048821908404,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007339125.png": {
+   "score": 0.20389031332387436,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007339127.png": {
+   "score": 0.17642813581022096,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007339132.png": {
+   "score": 0.19393314972470324,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007339161.png": {
+   "score": 0.19158895904985507,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007339165.png": {
+   "score": 0.16610314010609045,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007339638.png": {
+   "score": 0.17030825838955752,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007339639.png": {
+   "score": 0.16693746172641594,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007339642.png": {
+   "score": 0.19307042251482692,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007339648.png": {
+   "score": 0.18877946813746507,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007339653.png": {
+   "score": 0.1862347654316754,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007579714.png": {
+   "score": 0.9878143614835433,
+   "pred": 1,
+   "forged": true
+  },
+  "X51007843145.png": {
+   "score": 0.22976877557711112,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007846270.png": {
+   "score": 0.5367877704255498,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007846282.png": {
+   "score": 0.5014169159959322,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007846326.png": {
+   "score": 0.27098185992335877,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007846357.png": {
+   "score": 0.616126514905354,
+   "pred": 0,
+   "forged": true
+  },
+  "X51007846366.png": {
+   "score": 0.5721413691692523,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007846371.png": {
+   "score": 0.5301325932623441,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007846393.png": {
+   "score": 0.1702471885271091,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007846398.png": {
+   "score": 0.623639658648359,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007846403.png": {
+   "score": 0.6308386787156544,
+   "pred": 0,
+   "forged": false
+  },
+  "X51007846410.png": {
+   "score": 0.3991456362072008,
+   "pred": 0,
+   "forged": false
+  },
+  "X51008042791.png": {
+   "score": 0.20015566985245611,
+   "pred": 0,
+   "forged": false
+  },
+  "X51008099043.png": {
+   "score": 0.15131501071265857,
+   "pred": 0,
+   "forged": false
+  },
+  "X51008099046.png": {
+   "score": 0.1873262167568367,
+   "pred": 0,
+   "forged": false
+  },
+  "X51008099073.png": {
+   "score": 0.18023036877044152,
+   "pred": 0,
+   "forged": false
+  },
+  "X51008099081.png": {
+   "score": 0.9994234996685716,
+   "pred": 1,
+   "forged": true
+  },
+  "X51008099088.png": {
+   "score": 0.45353529800681064,
+   "pred": 0,
+   "forged": false
+  },
+  "X51008114216.png": {
+   "score": 0.18274143666874026,
+   "pred": 0,
+   "forged": false
+  },
+  "X51008114217.png": {
+   "score": 0.17371477151230233,
+   "pred": 0,
+   "forged": false
+  },
+  "X51008114266.png": {
+   "score": 0.18985059546202998,
+   "pred": 0,
+   "forged": false
+  },
+  "X51008123447.png": {
+   "score": 0.16497266044832945,
+   "pred": 0,
+   "forged": true
+  },
+  "X51008123450.png": {
+   "score": 0.1866872594544781,
+   "pred": 0,
+   "forged": false
+  },
+  "X51008123451.png": {
+   "score": 0.1915060559889634,
+   "pred": 0,
+   "forged": true
+  },
+  "X51008142005.png": {
+   "score": 0.18525751165869775,
+   "pred": 0,
+   "forged": false
+  },
+  "X51008142038.png": {
+   "score": 0.9977460650720886,
+   "pred": 1,
+   "forged": true
+  },
+  "X51008142058.png": {
+   "score": 0.18194424277522125,
+   "pred": 0,
+   "forged": false
+  },
+  "X51008142059.png": {
+   "score": 0.25029633198090506,
+   "pred": 0,
+   "forged": false
+  },
+  "X51008145504.png": {
+   "score": 0.17551460415163772,
+   "pred": 0,
+   "forged": false
+  },
+  "X51008145505.png": {
+   "score": 0.1756787846362752,
+   "pred": 0,
+   "forged": false
+  },
+  "X51008164991.png": {
+   "score": 0.17582383228695847,
+   "pred": 0,
+   "forged": false
+  },
+  "X51009008091.png": {
+   "score": 0.16767424352933696,
+   "pred": 0,
+   "forged": false
+  }
+ }
+}

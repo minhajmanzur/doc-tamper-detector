@@ -1,0 +1,1726 @@
+{
+ "test/X51006401977.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "The forensic pipeline flagged this area for copymove, but visual inspection shows normal thermal printer dot patterns consistent with the rest of the text without any signs of digital alteration or patch overlays."
+   },
+   {
+    "id": "R2",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "This region overlaps the receipt number and transaction date; the characters show consistent alignment, font weight, and pixel distribution matching authentic thermal printing."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt shows consistent thermal printing characteristics across all text and numeric fields, including the flagged sections. The forensic flags are typical false positives caused by regular text repetition and scanner compression artifacts, and the document appears authentic.",
+  "fraud_probability": 0.02,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 3840,
+   "output_tokens": 226,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.9790209790209791,
+  "zoom_enabled": false
+ },
+ "test/X51007846403.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "benign_annotation",
+    "explanation": "Contains handwritten notes at the top right corner of the receipt body, which is a normal human action before scanning and triggered noise forensic signals."
+   },
+   {
+    "id": "R2",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Isolated stray speck of dust or scanner noise off to the right of the receipt."
+   },
+   {
+    "id": "R3",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Stray noise speck on the margin outside the document body."
+   },
+   {
+    "id": "R4",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Scattered speckle and scanner noise in the lower margin area."
+   },
+   {
+    "id": "R5",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Minor artifact/dust spot outside the receipt boundaries."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt is authentic, showing consistent thermal print formatting and normal math across items and totals. The flags are merely harmless background scanner noise and marginal marks.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 7217,
+   "output_tokens": 329,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.19954389965792474,
+  "zoom_enabled": false
+ },
+ "test/X51008142005.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The tax invoice appears authentic with consistent typography, alignment, and arithmetic throughout. The line items sum correctly to the totals shown, and no signs of tampering or digital editing are visible.",
+  "fraud_probability": 0.01,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1561,
+   "output_tokens": 83,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.7803790412486065,
+  "zoom_enabled": false
+ },
+ "test/X51006557195.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "nothing_unusual",
+    "explanation": "The region surrounds the date text '12/12/2017'. The text appears uniform, well-aligned with the surrounding characters, and shows no clear evidence of tampering or copy-paste artifacts despite the pipeline's copymove signal."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt shows normal printing characteristics with consistent text formatting and aligned totals. The flagged date region shows no visible signs of manipulation.",
+  "fraud_probability": 0.05,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 2689,
+   "output_tokens": 160,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 1.0,
+  "zoom_enabled": false
+ },
+ "test/X51006414638.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "benign_annotation",
+    "explanation": "Contains handwritten numbers at the top of the receipt, which triggered a noise flag but is a normal manual annotation."
+   },
+   {
+    "id": "R2",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Contains minor random scanner noise on an otherwise blank area outside the receipt."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt shows consistent typography, alignment, and normal thermal printing characteristics. The handwritten note at the top is a standard manual annotation and there are no signs of digital editing or content alterations.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 3835,
+   "output_tokens": 189,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.19954389965792474,
+  "zoom_enabled": false
+ },
+ "test/X51006557117.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The receipt appears completely authentic with normal thermal print fading and scanner artifacts. The arithmetic across all line items, totals, and GST calculations is correct.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1542,
+   "output_tokens": 75,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 1.0,
+  "zoom_enabled": false
+ },
+ "test/X51006556610.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The receipt shows normal formatting, clean alignment, and consistent text characteristics throughout. There are no signs of digital tampering or alterations in the item descriptions, quantities, prices, or totals.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1561,
+   "output_tokens": 82,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 1.0,
+  "zoom_enabled": false
+ },
+ "test/X51007339161.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The receipt shows normal thermal printer formatting, consistent font types, and proper arithmetic for totals and tax calculations. There are no signs of digital alterations or manipulation.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1553,
+   "output_tokens": 77,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.9289980092899801,
+  "zoom_enabled": false
+ },
+ "test/X51007103688.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "nothing_unusual",
+    "explanation": "Standard printed store header text with normal thermal printer font characteristics. The copy-move signal is a false positive triggered by repeating vertical letter alignment."
+   },
+   {
+    "id": "R2",
+    "assessment": "nothing_unusual",
+    "explanation": "Company registration number and address details consistent with the rest of the text. No signs of digital tampering or font mismatch."
+   },
+   {
+    "id": "R3",
+    "assessment": "nothing_unusual",
+    "explanation": "Normal continuation of the merchant's address line. The font weight and alignment match adjacent text lines completely."
+   },
+   {
+    "id": "R4",
+    "assessment": "nothing_unusual",
+    "explanation": "GST ID and location indicator showing natural thermal print consistency without artifacts indicating copy-pasting."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt shows standard thermal print characteristics throughout the header and itemized sections. The forensic copy-move flags are typical false positives resulting from repeating text patterns in standard printed receipts.",
+  "fraud_probability": 0.01,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 6117,
+   "output_tokens": 303,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 1.0,
+  "zoom_enabled": false
+ },
+ "test/X51006414680.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "The entire receipt body triggers noise/ELA responses due to thermal paper text contrast and normal scanning artifacts, but the receipt content and numbers show no evidence of digital tampering or font discrepancies."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt shows normal thermal printing and scanning artifacts without any digital content alterations or forged values.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 2691,
+   "output_tokens": 138,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.19954389965792474,
+  "zoom_enabled": false
+ },
+ "test/X51006557507.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The receipt appears consistent in font, text alignment, and mathematical totals (25.96 + 9.92 = 35.88). No signs of digital manipulation or tampering were found.",
+  "fraud_probability": 0.05,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1565,
+   "output_tokens": 90,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 1.0,
+  "zoom_enabled": false
+ },
+ "test/X51005442361.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "The flagged area covers standard header text indicating the restaurant's registration and location details. The noise signal was likely triggered by minor local variations in ink density and scanner thresholding, as the characters show consistent alignment, font weight, and compression artifacts relative to the surrounding text."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The flagged region in the header exhibits normal scanning and printing variations with no signs of digital tampering. All line items, arithmetic totals, and text blocks appear consistent and authentic.",
+  "fraud_probability": 0.01,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 2685,
+   "output_tokens": 173,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.9162303664921466,
+  "zoom_enabled": false
+ },
+ "test/X51006350737.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "This is a standard retail tax invoice from C W Khoo Hardware Sdn Bhd. All calculations (item subtotal, GST, net total, rounding, and cash/change) are mathematically correct. There are no signs of digital alteration, font discrepancies, or background inconsistencies.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1541,
+   "output_tokens": 100,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 1.0,
+  "zoom_enabled": false
+ },
+ "test/X51007339107.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "The copymove signal triggered on repeating structural details and texture patterns in the header text and background, typical of thermal receipt printing and scanning artifacts rather than malicious duplication."
+   },
+   {
+    "id": "R2",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Similar to R1, the copymove detection responded to repetitive character shapes and paper texture around the store name, which is common in low-resolution thermal receipt scans."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt shows normal thermal printer degradation, authentic layout, and consistent font rendering across all line items and totals. The forensic flags are false positives triggered by repeating textual elements and paper texture.",
+  "fraud_probability": 0.05,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 3845,
+   "output_tokens": 224,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.9003215434083601,
+  "zoom_enabled": false
+ },
+ "test/X51005621482.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The receipt shows standard formatting, correct arithmetic totals matching the item price and tax calculations, and no signs of tampering or inconsistent fonts. The document appears entirely authentic.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1532,
+   "output_tokens": 78,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.9333333333333333,
+  "zoom_enabled": false
+ },
+ "test/X51006329183.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Normal receipt header text and check number showing standard dot-matrix printing and scanning noise without signs of tampering."
+   },
+   {
+    "id": "R2",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Standard line item unit price showing regular font and alignment consistent with the rest of the receipt."
+   },
+   {
+    "id": "R3",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Standard receipt text showing normal thermal printer fading and scan artifacts."
+   },
+   {
+    "id": "R4",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Totals and tax breakdown numbers align correctly with item quantities and unit prices, showing no evidence of digital alteration."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt shows consistent formatting, proper arithmetic across line items and totals, and standard thermal-print characteristics. All forensic flags are false positives triggered by normal scan noise and text repetition.",
+  "fraud_probability": 0.01,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 6106,
+   "output_tokens": 298,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.6469500924214417,
+  "zoom_enabled": false
+ },
+ "test/X51005568866.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Flags triggered by standard thermal receipt font texture and scanner artifacts; no evidence of manipulation."
+   },
+   {
+    "id": "R2",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Flagged due to recurring thermal print characters and scan noise patterns."
+   },
+   {
+    "id": "R3",
+    "assessment": "nothing_unusual",
+    "explanation": "The totals, subtotals, and math accurately match the line items (40 pieces at 1.40 equals 56.00 minus discount matches final values)."
+   },
+   {
+    "id": "R4",
+    "assessment": "nothing_unusual",
+    "explanation": "Standard receipt serial numbers with normal spacing and alignment."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt calculations are completely accurate and align with the listed quantities and unit prices. All forensic signals are false positives stemming from standard thermal print dots and scanning noise.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 6101,
+   "output_tokens": 292,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.5085361423901199,
+  "zoom_enabled": false
+ },
+ "test/X51005605295.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "benign_annotation",
+    "explanation": "Contains a handwritten purple ink circle and a price '4.20' next to an item. The copymove signal is triggered by repeating patterns in the background or surrounding text, but the ink is genuinely handwritten over the printed receipt."
+   },
+   {
+    "id": "R2",
+    "assessment": "benign_annotation",
+    "explanation": "Contains a printed total of '4.20' along with handwritten purple annotations underneath. The copy-move signal is a false positive typical of recurring receipt formatting."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt shows normal thermal printing with authentic handwritten purple ink annotations and circling by a person during review or audit. The forensic pipeline's copy-move signals are false positives triggered by repeating font glyphs and receipt structure.",
+  "fraud_probability": 0.05,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 3811,
+   "output_tokens": 239,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 1.0,
+  "zoom_enabled": false
+ },
+ "test/X51005705729.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The receipt from ASO Electrical Trading shows consistent font styling, alignment, and normal printing characteristics throughout. All arithmetic calculations (quantities, subtotal, GST, and totals) are internally consistent and correct. There are no signs of digital tampering.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1542,
+   "output_tokens": 95,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.72840790842872,
+  "zoom_enabled": false
+ },
+ "test/X51006328919.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The receipt shows normal thermal printing characteristics and consistent text alignment throughout. The handwritten checkmark next to the tax amount is a standard human annotation and does not indicate alteration.",
+  "fraud_probability": 0.05,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1519,
+   "output_tokens": 80,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.9602194787379973,
+  "zoom_enabled": false
+ },
+ "test/X51008123451.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The receipt from C W Khoo Hardware Sdn Bhd appears consistent in typography, alignment, and formatting. No signs of digital tampering or altered text were detected upon inspection.",
+  "fraud_probability": 0.05,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1536,
+   "output_tokens": 80,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 1.0,
+  "zoom_enabled": false
+ },
+ "test/X51005676541.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "nothing_unusual",
+    "explanation": "The document number 'CS00012514' shows normal thermal print clarity and alignment with no signs of digital editing."
+   },
+   {
+    "id": "R2",
+    "assessment": "nothing_unusual",
+    "explanation": "The date '03/01/2014' is uniformly printed and aligns correctly with adjacent text, showing no evidence of tampering."
+   },
+   {
+    "id": "R3",
+    "assessment": "benign_annotation",
+    "explanation": "Handwritten numbers at the very top margin represent typical manual handling, filing or pricing marks by store staff."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "All flagged regions show normal characteristics of authentic thermal receipts and manual annotations. There is no evidence of tampering or document alteration.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 4968,
+   "output_tokens": 248,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.6454587367450438,
+  "zoom_enabled": false
+ },
+ "test/X51005433556.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Contains line items, subtotal, and total on a thermal receipt. The noise flag is triggered by scanner artifacts around the dense text and dotted lines."
+   },
+   {
+    "id": "R2",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Contains order details and date. The noise signal is a false positive caused by normal thermal print fading and scanner digitization noise."
+   },
+   {
+    "id": "R3",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Contains the footer text 'Thank You'. The flag is a minor artifact from standard thermal receipt texture and background variation."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt shows normal characteristics of a thermal paper printout subsequently scanned. All forensic signals are false positives driven by text density and thermal fading, with no evidence of tampering.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 4980,
+   "output_tokens": 265,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.91683038637852,
+  "zoom_enabled": false
+ },
+ "test/X51005230616.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "benign_annotation",
+    "explanation": "This region contains a handwritten red pen marking at the top of the receipt, which triggered the ELA signal due to the ink's response to compression, but it is a normal manual annotation."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt shows normal features including a handwritten red annotation at the top. There are no signs of tampering or digital manipulation in the text or values.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 2665,
+   "output_tokens": 149,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.7650273224043715,
+  "zoom_enabled": false
+ },
+ "test/X51005719864.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The receipt appears entirely authentic. All thermal print text is clean, aligned, and consistent with standard POS printer output, and the mathematical totals correctly reconcile.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1519,
+   "output_tokens": 76,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.80413555427915,
+  "zoom_enabled": false
+ },
+ "test/X51006335552.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "This is a standard retail tax invoice showing multiple grocery line items, a subtotal, cash payment, and change calculation. There are no signs of digital alterations, font mismatches, or suspicious image artifacts, and handwritten annotations appear completely normal.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1515,
+   "output_tokens": 94,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.5709624796084829,
+  "zoom_enabled": false
+ },
+ "test/X51005268275.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "The ELA activation is entirely in the background outside the actual receipt paper edge where the scanner background surface transitions."
+   },
+   {
+    "id": "R2",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Similar to R1, the ELA response is concentrated around the scanner's flatbed background border adjacent to the receipt edge."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The flagged regions are purely scanner background artifacts. The receipt shows normal thermal print text alignment, arithmetic consistency across line items and taxes, and no evidence of digital content tampering.",
+  "fraud_probability": 0.01,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 3808,
+   "output_tokens": 202,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.6000857265323618,
+  "zoom_enabled": false
+ },
+ "test/X51008099088.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "nothing_unusual",
+    "explanation": "Normal text showing totals and brackets, with noise flagged due to standard receipt font contrast."
+   },
+   {
+    "id": "R2",
+    "assessment": "nothing_unusual",
+    "explanation": "Standard business registration number section showing regular dot-matrix printing and minor scan variations."
+   },
+   {
+    "id": "R3",
+    "assessment": "nothing_unusual",
+    "explanation": "Amount text heading and numerical digits matching the consistent font style of the receipt."
+   },
+   {
+    "id": "R4",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Corner fold/crease of the physical paper, affecting the margin and causing compression differences picked up by the noise filter."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt shows normal thermal printing characteristics with standard alignment and consistent font weight throughout. The flagged regions correspond to regular text blocks and a physical paper fold on the corner, with no evidence of digital tampering or text alteration.",
+  "fraud_probability": 0.01,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 6130,
+   "output_tokens": 296,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.8398320335932813,
+  "zoom_enabled": false
+ },
+ "test/X51006647933.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The receipt shows normal thermal printing characteristics and consistent font alignments across all item lines and totals. The handwritten notes at the top are typical customer or staff markings.",
+  "fraud_probability": 0.05,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1564,
+   "output_tokens": 78,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 1.0,
+  "zoom_enabled": false
+ },
+ "test/X51006620182.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "The copymove signal triggered on the repeating dot-matrix font patterns and regular receipt line structures, which is a common false positive for texture repetition in thermal receipts."
+   },
+   {
+    "id": "R2",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "The flagged text 'WHITE COFFEE-COLD' is cleanly printed with uniform dot-matrix text matching the rest of the document, with the signal being triggered by pattern repetition in the font."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt shows consistent dot-matrix printing throughout without any signs of digital alteration. The flagged forensic signals are false positives caused by repeating text characters and thermal receipt line structures.",
+  "fraud_probability": 0.05,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 3788,
+   "output_tokens": 226,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.501432664756447,
+  "zoom_enabled": false
+ },
+ "test/X51005685355.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The receipt shows normal thermal printing characteristics and consistent font alignment across all line items and totals. The handwritten signature and text at the bottom are standard physical annotations that do not indicate digital tampering.",
+  "fraud_probability": 0.01,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1561,
+   "output_tokens": 84,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.9978617248752673,
+  "zoom_enabled": false
+ },
+ "test/X51006619507.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "This is a standard thermal paper tax invoice from a restaurant that exhibits normal printing, thermal fading, and standard receipt layout. There are no signs of tampering, font inconsistencies, or digital alterations in the text or numerical values.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1536,
+   "output_tokens": 90,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.8849557522123894,
+  "zoom_enabled": false
+ },
+ "test/X51007339118.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The tax invoice appears completely authentic with consistent thermal printing characteristics, normal alignments, and correct calculations (subtotal, tax arithmetic, and totals match). There are no signs of digital tampering or alterations.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1561,
+   "output_tokens": 85,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 1.0,
+  "zoom_enabled": false
+ },
+ "test/X51005757243.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Contains the price and total columns. The copymove signal was triggered by repetitive dot-matrix text patterns and repeating digit shapes within the column."
+   },
+   {
+    "id": "R2",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Contains the transaction date and time. The flagged copy-move signals correspond to regular text printing patterns typical of thermal receipt printers."
+   },
+   {
+    "id": "R3",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Contains line item description and unit price. The copymove alarm is a false positive triggered by repeating characters and symbols in standard receipt text."
+   },
+   {
+    "id": "R4",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Contains the slip number and transaction code. The signal reflects regular dot-matrix and thermal print characteristics rather than digital manipulation."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "All flagged regions are false positives caused by repeating characters and patterns inherent to thermal printer output. The receipt layout, alignment, and arithmetic are consistent and authentic.",
+  "fraud_probability": 0.01,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 6153,
+   "output_tokens": 327,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.847457627118644,
+  "zoom_enabled": false
+ },
+ "test/X51006388044.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "content_edit",
+    "explanation": "The date displays '31-02-2017', which is an impossible calendar date (February has at most 29 days). This confirms the date was edited, making it a clear content edit."
+   },
+   {
+    "id": "R2",
+    "assessment": "nothing_unusual",
+    "explanation": "The invoice number string appears consistent with standard thermal printer text and shows no signs of digital tampering or anomaly."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt contains an impossible calendar date of February 31, 2017 (R1), conclusively proving the document content was altered. The invoice number region (R2) shows no anomalies, but the blatant date error makes the document forged.",
+  "fraud_probability": 1.0,
+  "verdict": "forged",
+  "usage": {
+   "input_tokens": 3861,
+   "output_tokens": 231,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.9497964721845319,
+  "zoom_enabled": false
+ },
+ "test/X51007339638.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "This is a standard thermal-printed cash receipt from AIK HUAT HARDWARE ENTERPRISE SDN BHD. The text, totals, tax calculations, and alignment are consistent throughout, and there are no signs of tampering or digital editing.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1563,
+   "output_tokens": 94,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.774764803541782,
+  "zoom_enabled": false
+ },
+ "test/X51006557188.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The receipt shows standard formatting, consistent font weights, and alignments typical of thermal printing and scanning. The arithmetic across all line items, subtotals, GST calculations, and the final Total Payable (26.61 - 2.88 - 0.17 = 23.56) is completely accurate. There are no signs of digital tampering or text alteration.",
+  "fraud_probability": 0.01,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1519,
+   "output_tokens": 126,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 1.0,
+  "zoom_enabled": false
+ },
+ "test/X51006556603.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "nothing_unusual",
+    "explanation": "The amounts and totals are aligned normally with standard dot-matrix/thermal print characteristics and display no signs of tampering."
+   },
+   {
+    "id": "R2",
+    "assessment": "nothing_unusual",
+    "explanation": "The quantity/column values show consistent printing artifacts and regular spacing matching the rest of the text line without editing indicators."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt shows normal thermal print characteristics and consistent alignment across all line items and totals. The forensic flags triggered by copy-move analysis are false positives caused by repeating grid patterns and standard text density.",
+  "fraud_probability": 0.05,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 3824,
+   "output_tokens": 199,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 1.0,
+  "zoom_enabled": false
+ },
+ "test/X51008114217.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The receipt shows normal thermal printing characteristics, consistent spacing, and alignment without any signs of digital alteration or tampering. All calculations (item totals, rounding, and cash tendered) match correctly.",
+  "fraud_probability": 0.01,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1517,
+   "output_tokens": 84,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.6986027944111777,
+  "zoom_enabled": false
+ },
+ "test/X51005757349.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "content_edit",
+    "explanation": "This region covers the totals block including Sub-Total, Net Total, and Cash Received which show clear signs of digital editing to inflate the figures to 521.00, matching the fraudulent line item above."
+   },
+   {
+    "id": "R2",
+    "assessment": "content_edit",
+    "explanation": "This region covers the unit price of 505.00 for the second line item, which appears digitally altered and mismatched with standard pricing to artificially inflate the receipt total."
+   },
+   {
+    "id": "R3",
+    "assessment": "content_edit",
+    "explanation": "This region covers the total amount of 505.00 for the second line item, corresponding to the edited unit price and quantity."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt has been digitally altered to inflate the second line item's price to 505.00 and the total amount to 521.00. The font weight and alignment of the modified figures show clear signs of tampering.",
+  "fraud_probability": 0.99,
+  "verdict": "forged",
+  "usage": {
+   "input_tokens": 4964,
+   "output_tokens": 304,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 1.0,
+  "zoom_enabled": false
+ },
+ "test/X51005447851.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "nothing_unusual",
+    "explanation": "The flagged region shows the amount 31.70, which matches other identical entries and displays no visual anomalies or signs of tampering."
+   },
+   {
+    "id": "R2",
+    "assessment": "nothing_unusual",
+    "explanation": "The flagged region shows the GST summary amount 31.70, which is consistent with the rest of the document and shows no evidence of editing."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt shows consistent formatting, alignment, and typography across all price and total fields. The forensic flags for copy-move are false positives driven by repeated numeric characters typical of printed receipts. The document appears authentic.",
+  "fraud_probability": 0.05,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 3842,
+   "output_tokens": 215,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.7905138339920948,
+  "zoom_enabled": false
+ },
+ "test/X51008142058.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The receipt appears completely authentic with consistent print alignment, standard thermal receipt font rendering, and internally consistent arithmetic (5 x 16.50 = 82.50, plus 6% GST = 87.45). There are no signs of tampering, font replacement, or digital editing.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1561,
+   "output_tokens": 110,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.6635071090047393,
+  "zoom_enabled": false
+ },
+ "test/X51007846357.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "nothing_unusual",
+    "explanation": "The main tax receipt block. The noise flag is triggered by the receipt borders and printed characters standing out from the blank page area, which is completely normal for a scanned thermal receipt."
+   },
+   {
+    "id": "R2",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Isolated stray speck or noise on the blank background outside the receipt."
+   },
+   {
+    "id": "R3",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Isolated stray speck or noise on the blank background outside the receipt."
+   },
+   {
+    "id": "R4",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Isolated stray speck or noise on the blank background outside the receipt."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The document is a genuine thermal receipt from Kedai Runcit ZBH showing a regular transaction totalling RM29.40. All flagged regions are simply scanner artifacts or background specks, and there are no signs of tampering.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 6110,
+   "output_tokens": 308,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.19954389965792474,
+  "zoom_enabled": false
+ },
+ "test/X51005577192.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The document is a standard thermal printed tax invoice/receipt from FY Eagle Enterprise for tape. All alignments, font weights, and arithmetic (sub-total 6.60 + GST 0.40 = total 7.00) are consistent and correct. There are no signs of tampering or digital manipulation.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1525,
+   "output_tokens": 111,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.693069306930693,
+  "zoom_enabled": false
+ },
+ "test/X51006556808.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The receipt shows consistent typography, alignment, and spacing across all line items and totals, with standard thermal print degradation and no visual indicators of digital tampering. The arithmetic for sub-totals, GST, and the final Total Payable (18.92 + 56.93 + 3.41 = 79.26) is internally consistent and correct.",
+  "fraud_probability": 0.05,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1539,
+   "output_tokens": 124,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 1.0,
+  "zoom_enabled": false
+ },
+ "test/X51006619869.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "This is a clean thermal receipt from Home's Harmony. All text formatting, alignment, and arithmetic (item total, discount calculation, rounding, GST, cash tender, and change) are entirely consistent and accurate. No signs of tampering or digital manipulation are present.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1561,
+   "output_tokens": 99,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.6927263730826324,
+  "zoom_enabled": false
+ },
+ "test/X51006556591.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The receipt exhibits natural thermal printing, consistent text alignment, and normal arithmetic across all line items and tax totals (23.64 + 12.72 = 36.36). There are no signs of tampering or digital manipulation.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1542,
+   "output_tokens": 98,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 1.0,
+  "zoom_enabled": false
+ },
+ "test/X51005711402.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Standard digit text alignment and consistent print characteristics; the copy-move flag is a false positive triggered by recurring receipt layout patterns."
+   },
+   {
+    "id": "R2",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Standard unit prices showing normal thermal printer font weight and background consistency."
+   },
+   {
+    "id": "R3",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Line item totals aligned properly with no evidence of tampering or patch insertion."
+   },
+   {
+    "id": "R4",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Subtotals and tax calculations match the itemized quantities correctly."
+   },
+   {
+    "id": "R5",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Quantity multipliers show standard spacing and alignment consistent with authentic thermal receipts."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "All flagged regions are false positives resulting from repetitive receipt formatting and thermal printer characteristics. The itemized quantities, unit prices, and tax calculations are arithmetically consistent and show no signs of digital alteration.",
+  "fraud_probability": 0.01,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 7242,
+   "output_tokens": 342,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.7502679528403001,
+  "zoom_enabled": false
+ },
+ "test/X51006556865.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "content_edit",
+    "explanation": "Region R1 covers the Total Payable amount and surrounding lines. The font and spacing of the total amount '82.82' appear digitally altered and do not align consistently with the rest of the thermal print layout."
+   },
+   {
+    "id": "R2",
+    "assessment": "nothing_unusual",
+    "explanation": "Region R2 covers the invoice number and date. The characters show consistent thermal print degradation and normal scanning artifacts without signs of digital editing."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt shows signs of digital alteration in the final Total Payable amount (Region R1), while the invoice header details appear authentic. The mismatch in the final total indicates the document content has been tampered with.",
+  "fraud_probability": 0.85,
+  "verdict": "forged",
+  "usage": {
+   "input_tokens": 3823,
+   "output_tokens": 227,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 1.0,
+  "zoom_enabled": false
+ },
+ "test/X51005447860.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The receipt appears entirely authentic with consistent typography, alignment, and normal thermal printer fading. The arithmetic for sub-totals, GST, cash tendered, and change is fully consistent.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1561,
+   "output_tokens": 81,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.6572769953051644,
+  "zoom_enabled": false
+ },
+ "test/X51006913023.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "nothing_unusual",
+    "explanation": "The entire tax invoice receipt text block and its receipt bounding box. The noise signals highlight the text boundaries and normal variations in scanner response across the printed receipt."
+   },
+   {
+    "id": "R2",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "A stray speckle mark on the blank area off to the right of the receipt, triggering noise and ELA signals due to isolated pixel differences."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt shows standard formatting, consistent typography, and mathematically correct calculations (items, tax, and total match). The flagged regions contain only normal document content and scanner artifacts.",
+  "fraud_probability": 0.01,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 3826,
+   "output_tokens": 211,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.19954389965792474,
+  "zoom_enabled": false
+ },
+ "test/X51007846398.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "nothing_unusual",
+    "explanation": "This region contains the main body of the receipt/tax invoice. The noise signal fired due to the high-contrast text block bounding box, but the text alignment, fonts, and arithmetic (totals and tax items) are completely consistent and authentic."
+   },
+   {
+    "id": "R2",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Contains isolated scan noise / dust speck outside the receipt body."
+   },
+   {
+    "id": "R3",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Contains isolated scan speck/noise."
+   },
+   {
+    "id": "R4",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Contains isolated scan speck/noise."
+   },
+   {
+    "id": "R5",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Contains isolated scan speck/noise."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The document is an authentic tax invoice with no signs of content alteration or digital tampering. The flagged regions are merely scan noise and artifacts outside or around the legitimate receipt body.",
+  "fraud_probability": 0.01,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 7254,
+   "output_tokens": 338,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.19954389965792474,
+  "zoom_enabled": false
+ },
+ "test/X51005724627.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The tax invoice appears authentic with consistent typography, alignment, and normal arithmetic across all line items, totals, and GST summaries. No signs of digital tampering or text replacement were found.",
+  "fraud_probability": 0.01,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1539,
+   "output_tokens": 83,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.665083135391924,
+  "zoom_enabled": false
+ },
+ "test/X51005577191.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The receipt shows clean dot-matrix text and standard pink thermal/stamped text at the top and bottom. All arithmetic adds up correctly (sub-total 9.43 + GST 0.57 = 10.00 total) and there are no signs of pixel manipulation, font discrepancies, or background patches.",
+  "fraud_probability": 0.01,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1525,
+   "output_tokens": 115,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.6896551724137931,
+  "zoom_enabled": false
+ },
+ "test/X51006414715.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "nothing_unusual",
+    "explanation": "This region covers the main body of the receipt. The text shows normal thermal printing characteristics, alignment, and spacing. The handwritten number at the top and standard layout show no signs of digital tampering."
+   },
+   {
+    "id": "R2",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "This region contains random scanner noise outside the receipt area, incorrectly flagged by the pipeline."
+   },
+   {
+    "id": "R3",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "This region contains minor stray dust or scanner noise on the blank background area."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The document is a standard restaurant receipt with normal formatting, alignment, and printed text. The flagged regions correspond to harmless background scanner noise outside the document boundary.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 4969,
+   "output_tokens": 253,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.19954389965792474,
+  "zoom_enabled": false
+ },
+ "test/X51005676546.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "nothing_unusual",
+    "explanation": "The date text appears uniform, well-aligned, and consistent with the font and quality of the rest of the document. The copymove signal is likely a false positive triggered by repetitive digit patterns."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt shows normal printing characteristics with consistent text formatting, alignment, and ink consistency. The forensic flag on the date is a false positive and the document appears to be authentic.",
+  "fraud_probability": 0.05,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 2666,
+   "output_tokens": 157,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.7510729613733905,
+  "zoom_enabled": false
+ },
+ "test/X51006556726.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "content_edit",
+    "explanation": "The Total Payable amount has been massively inflated to 6868.41, completely inconsistent with the individual line items which sum to roughly 68.41. The digits have been digitally edited or pasted over."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt has been fraudulently altered to inflate the Total Payable amount from around 68.41 to 6868.41. The arithmetic does not match the itemized values listed on the receipt.",
+  "fraud_probability": 1.0,
+  "verdict": "forged",
+  "usage": {
+   "input_tokens": 2699,
+   "output_tokens": 171,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 1.0,
+  "zoom_enabled": false
+ },
+ "test/X51006008206.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "The flagged area covers parts of the invoice number and the timestamp, where faint thermal printer fading occurs naturally on receipt paper."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt shows normal thermal printer fading and matches standard formatting for a Burger King receipt in Malaysia, with consistent totals and tax calculations.",
+  "fraud_probability": 0.05,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 2706,
+   "output_tokens": 135,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 1.0,
+  "zoom_enabled": false
+ },
+ "test/X51006414671.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "nothing_unusual",
+    "explanation": "The main receipt body containing the header, items, totals, and footer. The noise signal was triggered by general scanner background noise across the large bounding box."
+   },
+   {
+    "id": "R2",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "A stray speck or dust mark on the scanner bed, picked up as noise."
+   },
+   {
+    "id": "R3",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "A minor scanner artifact or stray dot off the receipt body."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt shows normal formatting, correct math totals, consistent font types and spacing, and a handwritten annotation at the top typical of store handling. No signs of forgery or digital tampering are present.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 4959,
+   "output_tokens": 248,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.19954389965792474,
+  "zoom_enabled": false
+ },
+ "test/X51005745298.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The receipt appears completely authentic. The text is printed with uniform thermal alignment, standard typography, and correct math for the total sales, rounding adjustments, and GST summary.",
+  "fraud_probability": 0.01,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1565,
+   "output_tokens": 80,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.9769713886950454,
+  "zoom_enabled": false
+ },
+ "test/X51008142038.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "The text in this region shows normal thermal printer dot-matrix characters with consistent alignment and weight. The pipeline flagged it due to regular repeating structural patterns in the receipt font triggering a false copy-move signal."
+   },
+   {
+    "id": "R2",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "This region captures company registration text printed with the same standard dot-matrix font as the rest of the header. The flagged signal is a false positive caused by the repetitive dot structure inherent to the font."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt appears completely authentic with normal thermal print characteristics, consistent text alignment, and balanced calculations. The forensic flags are false positives triggered by regular dot-matrix font patterns in the store header.",
+  "fraud_probability": 0.01,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 3842,
+   "output_tokens": 239,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.830367734282325,
+  "zoom_enabled": false
+ },
+ "test/X51006913074.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "nothing_unusual",
+    "explanation": "The entire tax invoice text body, showing normal thermal printer font alignment, consistent spacing, and standard handwritten annotations at the top."
+   },
+   {
+    "id": "R2",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Isolated stray noise speckle in the margin outside the receipt body."
+   },
+   {
+    "id": "R3",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Stray background noise speckle in the bottom-left margin."
+   },
+   {
+    "id": "R4",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Stray background noise speckle in the bottom-right margin."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The document is a standard Domino's Pizza thermal receipt with no signs of digital tampering or text alteration. All flagged regions correspond to harmless background scan noise or isolated speckles in the margins.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 6122,
+   "output_tokens": 288,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.19954389965792474,
+  "zoom_enabled": false
+ },
+ "test/X51007579714.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Header text showing company address and registration details. The copy-move signal was triggered by repetitive dot-matrix or thermal print patterns and normal scan noise, with no visual evidence of tampering."
+   },
+   {
+    "id": "R2",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "Invoice timestamp and cashier details. The text alignment and print texture are uniform, and the forensic signal represents a false positive from routine thermal print fading and scanner artifacts."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "All flagged regions on the thermal receipt are false positives caused by regular print and scan artifacts. The document shows no indications of digital alteration, and the totals are internally consistent.",
+  "fraud_probability": 0.01,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 3817,
+   "output_tokens": 223,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.8279124778237729,
+  "zoom_enabled": false
+ },
+ "test/X51007103639.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The receipt appears completely authentic with normal thermal print formatting, matching mathematical totals (6.30 + 5.00 + 3.90 = 15.20 plus GST), and natural alignment throughout. There are no signs of digital manipulation or text alterations.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1565,
+   "output_tokens": 103,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.9688581314878892,
+  "zoom_enabled": false
+ },
+ "test/X51008099081.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "content_edit",
+    "explanation": "The total amount shows a digital insertion where '4.80' was modified to '40.80' by adding a zero and a comma/period, creating a mismatch in the math of the receipt."
+   },
+   {
+    "id": "R2",
+    "assessment": "nothing_unusual",
+    "explanation": "Line item totals match the quantities and unit prices without any signs of manipulation."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt has been digitally altered to inflate the total amount from 4.80 to 40.80, which is inconsistent with the itemized quantities and prices. This constitutes a clear content edit.",
+  "fraud_probability": 0.99,
+  "verdict": "forged",
+  "usage": {
+   "input_tokens": 3857,
+   "output_tokens": 216,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.8438818565400844,
+  "zoom_enabled": false
+ },
+ "test/X51008123447.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "The receipt shows a parking ticket from Kuala Lumpur with consistent thermal print characteristics and alignment. The mathematical relationship between the item amount and totals appears consistent with a cash transaction.",
+  "fraud_probability": 0.05,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1553,
+   "output_tokens": 80,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 1.0,
+  "zoom_enabled": false
+ },
+ "test/X51006555784.png": {
+  "regions": [],
+  "unflagged_findings": [],
+  "summary": "This is a standard tax invoice from Gardenia Bakeries with coherent arithmetic matching the line items and tax calculations. There are no visual signs of digital tampering, font inconsistencies, or alignment issues.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 1565,
+   "output_tokens": 84,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 1.0,
+  "zoom_enabled": false
+ },
+ "test/X51005447853.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "The characters in the invoice number line show standard dot-matrix/thermal print quality consistent with the rest of the text on the receipt. The copymove signal is a false positive triggered by recurring repeating character patterns in thermal printing."
+   },
+   {
+    "id": "R2",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "The date characters match the font style, weight, and alignment of the adjacent text. The forensic signal is a false positive caused by normal repeating pixel patterns in the scan."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt shows consistent thermal print characteristics throughout all lines including the invoice number and date. No signs of digital editing or manipulation were detected.",
+  "fraud_probability": 0.05,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 3853,
+   "output_tokens": 227,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.8149010477299186,
+  "zoom_enabled": false
+ },
+ "test/X51007231361.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "benign_annotation",
+    "explanation": "Contains handwritten numbering at the top, which is a normal manual annotation on paper receipts before scanning."
+   },
+   {
+    "id": "R2",
+    "assessment": "nothing_unusual",
+    "explanation": "Contains the summary total block, which aligns correctly with line item totals and taxes without signs of editing."
+   },
+   {
+    "id": "R3",
+    "assessment": "nothing_unusual",
+    "explanation": "Contains line items, quantities, prices, and subtotal calculations that add up correctly and show consistent font characteristics."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The receipt shows consistent text, proper arithmetic across line items and tax totals, and a standard handwritten annotation. The forensic flags correspond to standard scanning artifacts and normal text patterns.",
+  "fraud_probability": 0.0,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 5004,
+   "output_tokens": 240,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.20054433462254692,
+  "zoom_enabled": false
+ },
+ "test/X51006913031.png": {
+  "regions": [
+   {
+    "id": "R1",
+    "assessment": "print_or_scan_artifact",
+    "explanation": "The flagged region bounds the entire thermal receipt. The noise signal is triggered by the boundary outline, paper edges, and varying ink density typical of a scanned thermal receipt, along with a handwritten annotation at the top right."
+   }
+  ],
+  "unflagged_findings": [],
+  "summary": "The document is a standard scanned thermal receipt containing a handwritten annotation. The noise signal is triggered by the receipt borders and paper texture, but the text and numbers appear consistent and authentic.",
+  "fraud_probability": 0.05,
+  "verdict": "authentic",
+  "usage": {
+   "input_tokens": 2684,
+   "output_tokens": 164,
+   "cache_read_input_tokens": 0,
+   "zooms": 0
+  },
+  "model": "gemini-3.5-flash-lite",
+  "requested_model": "gemini-3.5-flash-lite",
+  "page_scale": 0.19954389965792474,
+  "zoom_enabled": false
+ }
+}
