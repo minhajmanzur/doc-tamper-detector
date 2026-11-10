@@ -55,6 +55,8 @@ What the numbers say:
 - **ELA and noise are at chance on this dataset.** The forged files were saved as PNG after editing and the edits are often a single character, so there is no JPEG history to compare and too few pixels for a noise estimate. They are kept because they still propose regions for the LLM, and because they are the signals that matter on JPEG-native documents.
 - **The misses are the interesting part.** Retyped text (IMI), erased fields (CUT) and content pasted from another document (CPO) leave no duplicate on the page: 7 forged receipts get no useful region at all. Those are the cases where reading the document (does the total add up, does this glyph match its neighbours) has to do what pixels cannot.
 
+<img src="results/figures/roc_classical.png" width="460" alt="ROC curves for ELA, noise, copy-move and the fused detector on the test split">
+
 Full tables, per-technique recall, ROC curves and overlay images are in `results/report.md`.
 
 ## Results: classical versus LLM
@@ -73,6 +75,10 @@ Agreement between the classical stage and the LLM (prompt v2):
 |---|---|---|---|---|
 | Forged (35) | 19 | 5 | 0 | 11 |
 | Authentic (35) | 35 | 0 | 0 | 0 |
+
+<img src="results/figures/disagreement.png" width="460" alt="Classical fused score against LLM fraud probability for each test receipt">
+
+Each dot is a receipt. Bottom right holds the forgeries the pixels caught and the LLM cleared; top right holds the ones both caught.
 
 How the LLM (prompt v2) read each region the classical stage flagged:
 
@@ -94,6 +100,15 @@ The practical reading: on this data the LLM's value is the explanation and the p
 Caveats: Flash-Lite is the smallest model in its family, it ran without the zoom tool, and the free tier's 20-requests-per-day cap on the larger Flash models is what forced both choices. This does not say what a stronger model with zoom would do. The Claude path (`tamper/llm.py`, multi-turn with zoom) is implemented but has not been run against the API. `TAMPER_PROMPT=v1` reproduces the first prompt.
 
 The individual disagreement cases, with the model's explanation and an overlay for each, are in `results/report.md`.
+
+## Examples
+
+Red boxes are regions the classical stage flagged; green boxes are the annotated altered areas.
+
+| Caught by both | Caught by pixels, cleared by the LLM | Missed by both |
+|---|---|---|
+| <img src="results/figures/example_X51005568866.png" width="260" alt="Receipt with flagged regions on the altered digits"> | <img src="results/figures/case_X51007103688.png" width="260" alt="Receipt where the classical flag is on the altered area but the LLM judged it authentic"> | <img src="results/figures/example_X51005230616.png" width="260" alt="Receipt with retyped text that neither stage flagged"> |
+| Copy-pasted digits; duplicate-block detection lands on them. | The flag is on the edit, but the LLM judged the page authentic. | Retyped text leaves no duplicate on the page and reads as consistent. |
 
 ## How it works
 
